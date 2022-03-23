@@ -15,7 +15,7 @@
 
 <body class="bg-gray-50 min-h-screen overflow-y-scroll" x-data="{OpenNavbar: false}">
 
-    <div class="flex flex-grow">
+    <div class="flex flex-grow h-screen">
         <aside
             :class="{'translate-x-0 ease-in-out opacity-100 h-full overflow-y-scroll' : OpenNavbar === true, '-translate-x-full w-full opacity-0 ease-out' : OpenNavbar === false}"
             @show="OpenNavbar === !OpenNavbar" class="inset-0 transform lg:transform-none lg:opacity-100
